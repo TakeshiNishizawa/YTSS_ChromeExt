@@ -57,16 +57,16 @@ async function initExtension() {
   });
 
   // 各ボタンをタイトルの右側の余白に追加
-  let targetArea.appendChild(shoot);
+  targetArea.appendChild(shoot);
 };
 
 
 
-let nextFr = document.createElement('button'); // 1フレ先へ
-nextFr.id = 'nextFr';
-let prevFr = document.createElement('button'); // 1フレ前へ
-prevFr.id = 'prevFr';
-let nextSec = document.createElement('button'); // 1sec先へ
-nextSec.id = 'nextSec';
-let prevSec = document.createElement('button'); // 1sec前へ
-prevSec.id = 'prevSec';
+// let nextFr = document.createElement('button'); // 1フレ先へ
+// nextFr.id = 'nextFr';
+// let prevFr = document.createElement('button'); // 1フレ前へ
+// prevFr.id = 'prevFr';
+// let nextSec = document.createElement('button'); // 1sec先へ
+// nextSec.id = 'nextSec';
+// let prevSec = document.createElement('button'); // 1sec前へ
+// prevSec.id = 'prevSec';
