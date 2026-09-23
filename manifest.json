@@ -1,0 +1,14 @@
+{
+  "name": "YouTube ScreenShot Chrome Extension",
+  "description": "Save ScreenShot of YouTube",
+  "version": "1.0.2",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["contents.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
