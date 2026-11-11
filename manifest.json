@@ -3,6 +3,13 @@
   "description": "Save ScreenShot of YouTube",
   "version": "1.0.2",
   "manifest_version": 3,
+    "permissions": [
+    "tabs",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
